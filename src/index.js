@@ -9,6 +9,10 @@ const theme = createTheme({
     primary: {
       main: "#5326D4",
     },
+    text: {
+      primary: "#172345",
+      secondary: "#fff",
+    },
   },
   overrides: {
     MuiButton: {
@@ -23,6 +27,15 @@ const theme = createTheme({
           background: "#fff",
         },
       },
+    },
+  },
+  typography: {
+    fontFamily: "Roboto",
+    h1: {
+      fontSize: 62,
+    },
+    body1: {
+      fontSize: 29,
     },
   },
 });

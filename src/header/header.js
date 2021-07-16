@@ -1,10 +1,10 @@
 import Button from "@material-ui/core/Button";
 import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
 import img from "../png/Vector (4).png";
 import img1 from "../png/Vector (5).png";
-import { boxSizing } from "@material-ui/system";
 
-function Name1() {
+function Header() {
   return (
     <header className="Rectangle">
       <nav>
@@ -23,35 +23,29 @@ function Name1() {
             flexGrow="1"
             justifyContent="flex-end"
           >
-            <img src={img} />
-            <img src={img1} />
+            <img src={img} alt="" />
+            <img src={img1} alt="" />
           </Box>
         </Box>
       </nav>
       <Box textAlign="center" mt="128px">
-        <h1>Toothpaste, reinvented</h1>
-        <p>
-          The only plastic-free and clean way to replace
-          <br />
-          the paste you've used your whole life.
-        </p>
-        <Button variant="outlined" color="primary">
-          shop now{" "}
-        </Button>
+        <Typography variant="h1" color="textSecondary">
+          Toothpaste, reinvented
+        </Typography>
+        <Box mt="25px">
+          <Typography variant="body1" color="textSecondary">
+            The only plastic-free and clean way to replace
+            <br />
+            the paste you've used your whole life.
+          </Typography>
+        </Box>
+        <Box mt="27px">
+          <Button variant="outlined" color="primary">
+            shop now{" "}
+          </Button>
+        </Box>
       </Box>
-
-      {/* <Button variant="contained" color="primary">
-          Disable elevation
-
-
-        </Button>
-        <Button variant="outlined" color="primary">
-          shop now
-        </Button>
-        <Button variant="outlined" color="primary">
-          Get started //{" "}
-        </Button> */}
     </header>
   );
 }
-export default Name1;
+export default Header;

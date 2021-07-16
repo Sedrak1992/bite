@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Container from "@material-ui/core/Container";
-import Name1 from "./header/header.js";
+import Header from "./header/header.js";
 import "./App.css";
 
 export default class App extends Component {
@@ -8,10 +8,8 @@ export default class App extends Component {
     return (
       <div>
         <Container>
-          <Name1 />
+          <Header />
         </Container>
-
-       
       </div>
     );
   }
