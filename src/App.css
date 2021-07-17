@@ -93,13 +93,19 @@ section div p {
   font-weight: normal;
   line-height: 39px;
 }
-.sectionDiv  p {
+.sectionDiv p {
   font-size: 24px;
 }
-.sectionDiv div  > a {
+.sectionDiv div > a {
   color: #172345;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   margin: 10px 20px;
+}
+.productTable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }

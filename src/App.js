@@ -3,6 +3,7 @@ import Container from "@material-ui/core/Container";
 import Header from "./header/header.js";
 import Box from "./header/box.js";
 import Rectangie from "./Rectangie/rectangie.js";
+import Appp from "./Appp"
 import "./App.css";
 import Arr from "./header/arr.js";
 import axios from "axios";
@@ -30,6 +31,7 @@ export default class App extends Component {
           <Header />
           <Rectangie />
           <Box/>
+          <Appp/>
           <Arr arr={this.state.product} />
         </Container>
       </div>
