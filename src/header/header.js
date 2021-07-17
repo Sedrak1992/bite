@@ -20,8 +20,10 @@ function Header() {
           <Box
             display="flex"
             alignItems="center"
+            pr="20px"
             flexGrow="1"
             justifyContent="flex-end"
+            className='imgs'
           >
             <img src={img} alt="" />
             <img src={img1} alt="" />

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .Rectangle {
   background-image: url(./png/Rectangle.png);
   background-size: cover;
@@ -5,31 +10,37 @@
   height: 680px;
 }
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
-.Rectangle img {
+/* .Rectangle > img {
+} */
+.imgs {
   width: 25px;
   height: 25px;
-  padding-right: 40px;
+  margin-right: 10px;
+}
+.imgs > img {
+  margin-right: 30px;
 }
 .box2 {
   display: flex;
   width: 100%;
-  margin: 30px auto;
+  margin: 0 auto;
   background: #fff;
-  height: 400px;
+  padding: 0 10px;
 }
 .box2 > div {
-  width: 313px;
-  height: 209px;
+  width: 25%;
 }
 .imgItem {
-  width: 90%;
-  padding: 10px;
+  padding: 35px;
 }
-.box2 > img {
-  width: 313px;
-  height: 209px;
+.DivImg {
+  width: 100%;
+}
+.DivImg > img {
+  width: 100%;
+  height: 300px;
 }
 .Fresh {
   width: 90%;
@@ -44,13 +55,51 @@ body {
   font-weight: normal;
 }
 .box2 > div > p {
-  margin: 5px  0 10px 0;
+  margin: 5px 0 10px 0;
 }
 h2 {
   color: #5326d4;
   font-size: 35px;
   margin: 0;
 }
-.StarIcon{
+.StarIcon {
   color: #162345;
+}
+section {
+  height: 74px;
+  background: #dee6f3;
+  width: 100%;
+}
+section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  padding: 0 20px;
+}
+section > div > div {
+  padding: 17px;
+}
+section div p {
+  margin: 0;
+}
+.sectionDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #172345;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 39px;
+}
+.sectionDiv  p {
+  font-size: 24px;
+}
+.sectionDiv div  > a {
+  color: #172345;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 20px;
 }

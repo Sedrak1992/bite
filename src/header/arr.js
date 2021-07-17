@@ -6,12 +6,10 @@ function Arr(props) {
     <div className="box2">
       {arr.map((item) => (
         <div>
-          <img
-            src={item.image}
-            className="imgItem"
-            width="310px"
-            height="206px"
-          />
+          <div className='DivImg'>
+            <img src={item.image} className="imgItem" width="100%" />
+          </div>
+
           <div className="Fresh">
             <div>Fresh Mint</div>
             <div>{item.price}</div>
@@ -19,7 +17,7 @@ function Arr(props) {
           <p>toothpaste</p>
           <div>{item.title}</div>
           {item.id}
-          <div className='StarIcon'>
+          <div className="StarIcon">
             <StarIcon />
             <StarIcon />
             <StarIcon />
