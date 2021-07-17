@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bite/static/css/main.7de12290.chunk.css",
-    "main.js": "/bite/static/js/main.88e77937.chunk.js",
-    "main.js.map": "/bite/static/js/main.88e77937.chunk.js.map",
+    "main.css": "/bite/static/css/main.57e22b8b.chunk.css",
+    "main.js": "/bite/static/js/main.c83e98ea.chunk.js",
+    "main.js.map": "/bite/static/js/main.c83e98ea.chunk.js.map",
     "runtime-main.js": "/bite/static/js/runtime-main.f6f363ea.js",
     "runtime-main.js.map": "/bite/static/js/runtime-main.f6f363ea.js.map",
-    "static/js/2.099a41e8.chunk.js": "/bite/static/js/2.099a41e8.chunk.js",
-    "static/js/2.099a41e8.chunk.js.map": "/bite/static/js/2.099a41e8.chunk.js.map",
+    "static/js/2.1336bddc.chunk.js": "/bite/static/js/2.1336bddc.chunk.js",
+    "static/js/2.1336bddc.chunk.js.map": "/bite/static/js/2.1336bddc.chunk.js.map",
     "index.html": "/bite/index.html",
-    "static/css/main.7de12290.chunk.css.map": "/bite/static/css/main.7de12290.chunk.css.map",
-    "static/js/2.099a41e8.chunk.js.LICENSE.txt": "/bite/static/js/2.099a41e8.chunk.js.LICENSE.txt",
+    "static/css/main.57e22b8b.chunk.css.map": "/bite/static/css/main.57e22b8b.chunk.css.map",
+    "static/js/2.1336bddc.chunk.js.LICENSE.txt": "/bite/static/js/2.1336bddc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bite/static/media/Rectangle.b948be41.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6f363ea.js",
-    "static/js/2.099a41e8.chunk.js",
-    "static/css/main.7de12290.chunk.css",
-    "static/js/main.88e77937.chunk.js"
+    "static/js/2.1336bddc.chunk.js",
+    "static/css/main.57e22b8b.chunk.css",
+    "static/js/main.c83e98ea.chunk.js"
   ]
 }
