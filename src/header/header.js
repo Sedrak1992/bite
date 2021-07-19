@@ -4,13 +4,14 @@ import Typography from "@material-ui/core/Typography";
 import img from "../png/Vector (4).png";
 import img1 from "../png/Vector (5).png";
 
-function Header() {
+function Header(props) {
+  const { molel } = props
   return (
     <header className="Rectangle">
       <nav>
         <Box display="flex" justifyContent="space-between" alignItems="center">
           <Box display="flex" alignItems="center" flexGrow="1" pl="20px">
-            <Button color="primary">Shop</Button>
+            <Button color="primary" onClick={molel} >Shop</Button>
             <Button color="primary">About us</Button>
             <Button color="primary">Sustainability</Button>
           </Box>
@@ -23,7 +24,7 @@ function Header() {
             pr="20px"
             flexGrow="1"
             justifyContent="flex-end"
-            className='imgs'
+            className="imgs"
           >
             <img src={img} alt="" />
             <img src={img1} alt="" />

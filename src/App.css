@@ -109,3 +109,24 @@ section div p {
   align-items: center;
   flex-wrap: wrap;
 }
+.imgs1 > div img {
+  width: 30%;
+}
+.imgs1 {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.imgs > div {
+  width: 33.33%;
+}
+.onClick {
+  width: 20%;
+}
+.MuiDrawer-paper {
+  margin-top: 60px;
+}
+.border{
+  border: 1px solid silver;
+}
+
