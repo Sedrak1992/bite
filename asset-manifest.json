@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bite/static/css/main.3ea96cd5.chunk.css",
-    "main.js": "/bite/static/js/main.ac743f15.chunk.js",
-    "main.js.map": "/bite/static/js/main.ac743f15.chunk.js.map",
+    "main.css": "/bite/static/css/main.31a1a631.chunk.css",
+    "main.js": "/bite/static/js/main.df91fd44.chunk.js",
+    "main.js.map": "/bite/static/js/main.df91fd44.chunk.js.map",
     "runtime-main.js": "/bite/static/js/runtime-main.f6f363ea.js",
     "runtime-main.js.map": "/bite/static/js/runtime-main.f6f363ea.js.map",
     "static/js/2.4989433b.chunk.js": "/bite/static/js/2.4989433b.chunk.js",
     "static/js/2.4989433b.chunk.js.map": "/bite/static/js/2.4989433b.chunk.js.map",
     "index.html": "/bite/index.html",
-    "static/css/main.3ea96cd5.chunk.css.map": "/bite/static/css/main.3ea96cd5.chunk.css.map",
+    "static/css/main.31a1a631.chunk.css.map": "/bite/static/css/main.31a1a631.chunk.css.map",
     "static/js/2.4989433b.chunk.js.LICENSE.txt": "/bite/static/js/2.4989433b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/bite/static/media/Rectangle.b948be41.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6f363ea.js",
     "static/js/2.4989433b.chunk.js",
-    "static/css/main.3ea96cd5.chunk.css",
-    "static/js/main.ac743f15.chunk.js"
+    "static/css/main.31a1a631.chunk.css",
+    "static/js/main.df91fd44.chunk.js"
   ]
 }
