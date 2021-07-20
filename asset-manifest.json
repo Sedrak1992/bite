@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/bite/static/css/main.31a1a631.chunk.css",
-    "main.js": "/bite/static/js/main.df91fd44.chunk.js",
-    "main.js.map": "/bite/static/js/main.df91fd44.chunk.js.map",
+    "main.css": "/bite/static/css/main.c2bc5611.chunk.css",
+    "main.js": "/bite/static/js/main.64a3820d.chunk.js",
+    "main.js.map": "/bite/static/js/main.64a3820d.chunk.js.map",
     "runtime-main.js": "/bite/static/js/runtime-main.f6f363ea.js",
     "runtime-main.js.map": "/bite/static/js/runtime-main.f6f363ea.js.map",
-    "static/js/2.4989433b.chunk.js": "/bite/static/js/2.4989433b.chunk.js",
-    "static/js/2.4989433b.chunk.js.map": "/bite/static/js/2.4989433b.chunk.js.map",
+    "static/js/2.b83c501b.chunk.js": "/bite/static/js/2.b83c501b.chunk.js",
+    "static/js/2.b83c501b.chunk.js.map": "/bite/static/js/2.b83c501b.chunk.js.map",
     "index.html": "/bite/index.html",
-    "static/css/main.31a1a631.chunk.css.map": "/bite/static/css/main.31a1a631.chunk.css.map",
-    "static/js/2.4989433b.chunk.js.LICENSE.txt": "/bite/static/js/2.4989433b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/bite/static/media/Rectangle.b948be41.png"
+    "static/css/main.c2bc5611.chunk.css.map": "/bite/static/css/main.c2bc5611.chunk.css.map",
+    "static/js/2.b83c501b.chunk.js.LICENSE.txt": "/bite/static/js/2.b83c501b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bite/static/media/Rectangle.b948be41.png",
+    "static/media/yourWallet.css": "/bite/static/media/logo.a2eb7f0f.png",
+    "static/media/icon2.415aa0e3.png": "/bite/static/media/icon2.415aa0e3.png",
+    "static/media/section2.a4169227.png": "/bite/static/media/section2.a4169227.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6f363ea.js",
-    "static/js/2.4989433b.chunk.js",
-    "static/css/main.31a1a631.chunk.css",
-    "static/js/main.df91fd44.chunk.js"
+    "static/js/2.b83c501b.chunk.js",
+    "static/css/main.c2bc5611.chunk.css",
+    "static/js/main.64a3820d.chunk.js"
   ]
 }
