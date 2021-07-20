@@ -48,23 +48,22 @@ export default class App extends Component {
           open={this.state.isOpen}
           onClose={this.toggleDrawer}
         >
-          <div>X</div>
           {this.state.cart.map((v) => (
             <div className="imgs1">
+              <div>{v.price}</div>
+              <div>{v.title}</div>
+              <div>{v.id}</div>
               <div>
-                {v.title}
+                <img src={v.image}/>
               </div>
               <div>
-                <img src={v.image} />
+                <button className='buttonW'onClick={() => this.handleRemove(v.id)}>xxx</button>
               </div>
-               <div>
-                 <button onClick={() => this.handleRemove(v.id)}>xxx</button>
-               </div>
             </div>
           ))}
         </Drawer>
+        <Header molel={this.toggleDrawer} />
         <Container>
-          <Header  molel={this.toggleDrawer}/>
           <Rectangie />
           <Box />
           <Appp products={this.state.products} onAdd={this.handleAdd} />
