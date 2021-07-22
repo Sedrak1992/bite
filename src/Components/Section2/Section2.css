@@ -1,0 +1,48 @@
+.sec2-parent{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/Rectangle(32).png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec2-parent h2{
+    color: #ffffff;
+    font-size: 65px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.sec2-parent p{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Tahoma;
+    width: 42%;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.sec2-parent a{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid #4144BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #4144BF;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .7s;
+}
+.sec2-parent a:hover{
+    background-color: transparent;
+    color: white;
+}

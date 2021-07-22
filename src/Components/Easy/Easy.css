@@ -1,0 +1,36 @@
+.easy {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.chines {
+  height: 475px;
+  padding-top: 150px;
+}
+.textBig {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 76px;
+  line-height: 82px;
+  text-align: left;
+  margin-bottom: 50px;
+  letter-spacing: 5.12236px;
+
+  color: #172345;
+}
+.textSmall {
+  text-align: left;
+}
+.how {
+  text-align: left;
+  margin-bottom: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  color: #172345;
+  border-bottom: 1px solid orange;
+  width: 40px;
+}
