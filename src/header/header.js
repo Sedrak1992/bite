@@ -11,7 +11,7 @@ function Header(props) {
       <nav>
         <Box display="flex" justifyContent="space-between" alignItems="center">
           <Box display="flex" alignItems="center" flexGrow="1" pl="20px">
-            <Button color="primary" onClick={molel} >Shop</Button>
+            <Button color="primary" onClick={molel}>SHOP</Button>
             <Button color="primary">About us</Button>
             <Button color="primary">Sustainability</Button>
           </Box>
