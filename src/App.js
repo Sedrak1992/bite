@@ -71,6 +71,7 @@ export default class App extends Component {
         </Drawer>
         <Header molel={this.toggleDrawer} />
         <Rectangie />
+        <h1>sdfghgfds</h1>
         <Container>
           <Appp products={this.state.products} onAdd={this.handleAdd} />
           <Arr arr={this.state.slider} onAdd={this.handleAdd} />
